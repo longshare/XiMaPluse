@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/15242630950@163.com/XiMaPluse'
+  s.homepage         = 'https://github.com/longshare/XiMaPluse'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '15242630950@163.com' => '724485526@qq.com' }
-  s.source           = { :git => 'https://github.com/15242630950@163.com/XiMaPluse.git', :tag => s.version.to_s }
+  s.author           = { 'long' => '724485526@qq.com' }
+  s.source           = { :git => 'https://github.com/longshare/XiMaPluse.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.summary = '喜马把脉SDK'
   s.source_files = 'XiMaPluse/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XiMaPluse' => ['XiMaPluse/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.swift_version = '5.0'
+  s.frameworks = 'UIKit'
+  s.dependency 'Alamofire'
+  s.dependency 'SnapKit'
 end

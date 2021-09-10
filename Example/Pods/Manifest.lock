@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.9.1)
+  - SnapKit (4.2.0)
+  - XiMaPluse (0.1.0):
+    - Alamofire
+    - SnapKit
+
+DEPENDENCIES:
+  - XiMaPluse (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SnapKit
+
+EXTERNAL SOURCES:
+  XiMaPluse:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  XiMaPluse: 0b222903512f3ce5be237aa7d7caffb683fc54a2
+
+PODFILE CHECKSUM: f41a372f953e569303d3029ccfaeb1856fa5af06
+
+COCOAPODS: 1.11.0
