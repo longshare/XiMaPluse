@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XiMaPluse_Example' do
+  pod 'XiMaPluse', :path => '../'
+
+  target 'XiMaPluse_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
